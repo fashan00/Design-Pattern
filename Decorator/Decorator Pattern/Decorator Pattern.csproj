@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{4F8D7266-D9D6-4D87-A53B-6F126FA31958}</ProjectGuid>
+    <ProjectGuid>{CDBCB45D-7417-4A03-B3D2-29B9DE7FB265}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>MiniDuckSimulator</RootNamespace>
-    <AssemblyName>MiniDuckSimulator</AssemblyName>
+    <RootNamespace>Decorator_Pattern</RootNamespace>
+    <AssemblyName>Decorator Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,21 +43,13 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Behaviors\Abstractions\IFlyBehavior.cs" />
-    <Compile Include="Behaviors\Abstractions\IQuackBehavior.cs" />
-    <Compile Include="Behaviors\FlyNoWay.cs" />
-    <Compile Include="Behaviors\FlyRocketPowered.cs" />
-    <Compile Include="Behaviors\FlyWithWings.cs" />
-    <Compile Include="Behaviors\MuteQuack.cs" />
-    <Compile Include="Behaviors\Quack.cs" />
-    <Compile Include="Behaviors\Squeak.cs" />
-    <Compile Include="Ducks\Abstractions\Duck.cs" />
-    <Compile Include="Ducks\DecoyDuck.cs" />
-    <Compile Include="Ducks\MallardDuck.cs" />
-    <Compile Include="Ducks\ModelDuck.cs" />
+    <Compile Include="Components\Abstractions\IShape.cs" />
+    <Compile Include="Components\Circle.cs" />
+    <Compile Include="Components\Rectangle.cs" />
+    <Compile Include="Decorators\Abstractions\ShapeDecorator.cs" />
+    <Compile Include="Decorators\GreenShapeDecorator.cs" />
+    <Compile Include="Decorators\RedShapeDecorator.cs" />
     <Compile Include="Program.cs" />
-    <Compile Include="Ducks\RedHeadDuck.cs" />
-    <Compile Include="Ducks\RubberDuck.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

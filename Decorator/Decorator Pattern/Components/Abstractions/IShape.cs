@@ -4,10 +4,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace MiniDuckSimulator.Behaviors
+namespace Decorator_Pattern.Components
 {
-    public interface IFlyBehavior
+    public interface IShape
     {
-        void Fly();
+        void Draw();
     }
 }

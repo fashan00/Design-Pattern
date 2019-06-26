@@ -12,14 +12,14 @@ namespace Observer_Pattern
         {
             Subject subject = new Subject();
 
-            new HexaObserver(subject);
-            new OctalObserver(subject);
-            new BinaryObserver(subject);
+            var hexaObserver = new HexaObserver(subject);
+            var octalObserver = new OctalObserver(subject);
+            var binaryObserver = new BinaryObserver(subject);
 
             Console.WriteLine("First state change: 15");
             subject.SetState(15);
-            Console.WriteLine();
-            Console.WriteLine("Second state change: 10");
+
+            Console.WriteLine("\nSecond state change: 10");
             subject.SetState(10);
 
             Console.ReadLine();
