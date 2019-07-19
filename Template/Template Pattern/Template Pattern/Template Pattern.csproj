@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8A4B8B8E-29F0-4D1F-8CA8-98D2D3A0EFA2}</ProjectGuid>
+    <ProjectGuid>{82AB7567-5602-4F8E-A680-DC3607F0E73E}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Facade_Pattern</RootNamespace>
-    <AssemblyName>Facade Pattern</AssemblyName>
+    <RootNamespace>Template_Pattern</RootNamespace>
+    <AssemblyName>Template Pattern</AssemblyName>
     <TargetFrameworkVersion>v4.6.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,13 +43,11 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Facade\ShapeFacade.cs" />
-    <Compile Include="Subsystems\IShape.cs" />
+    <Compile Include="Cricket.cs" />
+    <Compile Include="Football.cs" />
+    <Compile Include="Game.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Subsystems\Square.cs" />
-    <Compile Include="Subsystems\Circle.cs" />
-    <Compile Include="Subsystems\Rectangle.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
