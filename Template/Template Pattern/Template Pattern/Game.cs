@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Template_Pattern
 {
-    public abstract class Game
+    public abstract class GameTemplate
     {
         public abstract void Initialize();
         public abstract void StartPlay();

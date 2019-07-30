@@ -10,7 +10,7 @@ namespace Template_Pattern
     {
         static void Main(string[] args)
         {
-            Game game = new Cricket();
+            GameTemplate game = new Cricket();
             game.Play();
             Console.WriteLine();
             game = new Football();

@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace Template_Pattern
 {
-    class Football : Game
+    class Football : GameTemplate
     {
         public override void EndPlay()
         {

@@ -5,52 +5,59 @@ VisualStudioVersion = 15.0.28307.572
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Strategy Pattern", "Strategy\Strategy Pattern\Strategy Pattern.csproj", "{1F23D58B-67E5-47EB-A961-937E93375512}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "1.Strategy", "1.Strategy", "{858B971F-F6FE-4E27-9093-D11E0E077829}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "01.Strategy", "01.Strategy", "{858B971F-F6FE-4E27-9093-D11E0E077829}"
 	ProjectSection(SolutionItems) = preProject
 		Strategy\README.md = Strategy\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Observer Pattern", "Observer\Observer Pattern\Observer Pattern.csproj", "{F01241EE-8970-40D2-AF37-4C434364EB5A}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "2.Observer", "2.Observer", "{C4E45AA5-4190-4C08-9622-62F00DA66A82}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "02.Observer", "02.Observer", "{C4E45AA5-4190-4C08-9622-62F00DA66A82}"
 	ProjectSection(SolutionItems) = preProject
 		Observer\README.md = Observer\README.md
 	EndProjectSection
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3.Decorator", "3.Decorator", "{F88075D1-98F8-46BA-93B9-A2ED84262162}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "03.Decorator", "03.Decorator", "{F88075D1-98F8-46BA-93B9-A2ED84262162}"
 	ProjectSection(SolutionItems) = preProject
 		Decorator\README.md = Decorator\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Decorator Pattern", "Decorator\Decorator Pattern\Decorator Pattern.csproj", "{CDBCB45D-7417-4A03-B3D2-29B9DE7FB265}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6.Command", "6.Command", "{B950DFB7-15E1-41DD-A2C4-ECDFFC406DAC}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "06.Command", "06.Command", "{B950DFB7-15E1-41DD-A2C4-ECDFFC406DAC}"
 	ProjectSection(SolutionItems) = preProject
 		Command\README.md = Command\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Command Pattern", "Command\Command Pattern\Command Pattern.csproj", "{79619129-5A0A-47D7-AC7E-BDC0BDC20C77}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "7.Adapter Pattern", "7.Adapter Pattern", "{3F9B3C6B-C1F5-48D3-8277-B211875F57E2}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "07.Adapter Pattern", "07.Adapter Pattern", "{3F9B3C6B-C1F5-48D3-8277-B211875F57E2}"
 	ProjectSection(SolutionItems) = preProject
 		..\..\..\Downloads\design-patterns-master\src\adapter\README.md = ..\..\..\Downloads\design-patterns-master\src\adapter\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Adapter Pattern", "Adapter\Adapter Pattern\Adapter Pattern.csproj", "{1F74FE48-EED6-45FF-B884-AED7E3222614}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "8.Facade Pattern", "8.Facade Pattern", "{DD70AEAF-7805-485C-AC4C-1346E707838B}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "08.Facade Pattern", "08.Facade Pattern", "{DD70AEAF-7805-485C-AC4C-1346E707838B}"
 	ProjectSection(SolutionItems) = preProject
 		Facade\README.md = Facade\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Facade Pattern", "Facade\Facade Pattern\Facade Pattern.csproj", "{8A4B8B8E-29F0-4D1F-8CA8-98D2D3A0EFA2}"
 EndProject
-Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "9.Template Pattern", "9.Template Pattern", "{68356774-3DFB-4D9B-A066-76F66D7B9857}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "09.Template Pattern", "09.Template Pattern", "{68356774-3DFB-4D9B-A066-76F66D7B9857}"
 	ProjectSection(SolutionItems) = preProject
 		Template\README.md = Template\README.md
 	EndProjectSection
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Template Pattern", "Template\Template Pattern\Template Pattern\Template Pattern.csproj", "{82AB7567-5602-4F8E-A680-DC3607F0E73E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Iterator Pattern", "Iterator\Iterator Pattern\Iterator Pattern.csproj", "{05593284-4B18-47D8-BA41-3ECCA2CE53B7}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.Iterator Pattern", "10.Iterator Pattern", "{A510345F-3C7D-4BF3-AAE9-7773EE68F291}"
+	ProjectSection(SolutionItems) = preProject
+		Iterator\README.md = Iterator\README.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -86,6 +93,10 @@ Global
 		{82AB7567-5602-4F8E-A680-DC3607F0E73E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{82AB7567-5602-4F8E-A680-DC3607F0E73E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{82AB7567-5602-4F8E-A680-DC3607F0E73E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -98,6 +109,7 @@ Global
 		{1F74FE48-EED6-45FF-B884-AED7E3222614} = {3F9B3C6B-C1F5-48D3-8277-B211875F57E2}
 		{8A4B8B8E-29F0-4D1F-8CA8-98D2D3A0EFA2} = {DD70AEAF-7805-485C-AC4C-1346E707838B}
 		{82AB7567-5602-4F8E-A680-DC3607F0E73E} = {68356774-3DFB-4D9B-A066-76F66D7B9857}
+		{05593284-4B18-47D8-BA41-3ECCA2CE53B7} = {A510345F-3C7D-4BF3-AAE9-7773EE68F291}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03013FFE-8CD7-4693-BD9F-AE71E4A8D379}
