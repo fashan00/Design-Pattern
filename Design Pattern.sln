@@ -59,6 +59,13 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "10.Iterator Pattern", "10.I
 		Iterator\README.md = Iterator\README.md
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Composite Pattern", "Composite\Composite Pattern\Composite Pattern.csproj", "{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "11.Composite Pattern", "11.Composite Pattern", "{3A4F935C-DD74-4C77-8175-7F7E2E919D85}"
+	ProjectSection(SolutionItems) = preProject
+		Composite\README.md = Composite\README.md
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -97,6 +104,10 @@ Global
 		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{05593284-4B18-47D8-BA41-3ECCA2CE53B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,6 +121,7 @@ Global
 		{8A4B8B8E-29F0-4D1F-8CA8-98D2D3A0EFA2} = {DD70AEAF-7805-485C-AC4C-1346E707838B}
 		{82AB7567-5602-4F8E-A680-DC3607F0E73E} = {68356774-3DFB-4D9B-A066-76F66D7B9857}
 		{05593284-4B18-47D8-BA41-3ECCA2CE53B7} = {A510345F-3C7D-4BF3-AAE9-7773EE68F291}
+		{D8243D2F-7BB5-44E1-B3DF-8E8CFEE18A9B} = {3A4F935C-DD74-4C77-8175-7F7E2E919D85}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {03013FFE-8CD7-4693-BD9F-AE71E4A8D379}
